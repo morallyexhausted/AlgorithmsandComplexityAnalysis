@@ -8,7 +8,7 @@ public class FirstTask {
         return n * doubleFactorialRecursive(n - 2);
     }
 
-    // Обычный метод (через цикл)
+    // Обычный метод
     public static int doubleFactorialIterative(int n) {
         int result = 1;
         for (int i = n; i > 0; i -= 2) {

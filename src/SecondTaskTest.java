@@ -6,7 +6,7 @@ class SecondTaskTest {
 
     @Test
     void population() {
-        // Проверка обычного (итеративного) метода
+        // Проверка обычного метода
         assertEquals(54, SecondTask.populationIterative(3, 2, 3));
         assertEquals(7, SecondTask.populationIterative(4, 7, 1));
         assertEquals(0, SecondTask.populationIterative(5, 2, 0));

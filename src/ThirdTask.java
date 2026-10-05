@@ -7,12 +7,12 @@ public class ThirdTask {
             return;
         }
 
-        // Рекурсивный случай 1: добавление открывающей скобки
+        // Рекурсивный случай 1
         if (opened < n) {
             generateBrackets(current + "(", opened + 1, closed, n);
         }
 
-        // Рекурсивный случай 2: добавление закрывающей скобки
+        // Рекурсивный случай 2
         if (opened > closed) {
             generateBrackets(current + ")", opened, closed + 1, n);
         }

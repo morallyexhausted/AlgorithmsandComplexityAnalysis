@@ -1,6 +1,6 @@
 public class SecondTask {
 
-    // Обычный (итеративный) метод
+    // Обычный метод
     public static int populationIterative(int n, int first, int ratio) {
         int result = first;
         for (int i = 0; i < n; i++) {
